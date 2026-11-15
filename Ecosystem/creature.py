@@ -1,6 +1,7 @@
-from random import random
 from math import pi
+from random import random
 from time import time_ns
+
 
 class Creature:
     def __init__(self, x, y, hunger, thirst, health, speed, sightRange):
